@@ -1,0 +1,765 @@
+	/*SELECT sub_categoria.id, sub_categoria.foto, sub_categoria.titulo, sub_categoria.conteudo, sub_categoria.id_sub_categoria AS categoria, categoria.titulo AS categoria_nome
+	FROM sub_categoria
+	LEFT JOIN categoria ON ( sub_categoria.id_sub_categoria = categoria.id ) */
+
+	body {
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		margin-bottom:0px;
+		width:100%;
+		height:100%;
+		background: url(../imagens/layout/fundo.gif) repeat;
+	}
+	.linhas{
+		width:100%; height:auto; margin-left:0px; margin-right:0px; display:block; clear:both;}	
+
+	.clear{
+	clear:both;
+	width:100%
+	}
+	a{
+	text-decoration:none;
+	}
+
+
+	/*começo do index*/
+	#tudo{
+	width:1049px;
+	min-height:138px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+
+	}
+
+	#link_home{
+	width:390;
+	height:43px;
+	float:right;
+
+	}
+	#link_home_imagem{
+	width:10px;
+	height:43px;
+	float:left;
+
+	}
+	#link_home_imagem{
+	width:10px;
+	height:43px;
+	float:left;
+
+	}
+	#link_home_conteudo{
+	width:282px;
+	height:40px;
+	float:left;
+	background-color:#f18536;
+
+	}
+	.linkletra20calibra{
+	font-family: Calibri;
+	font-size:20px; 
+	font-style:regular;
+	float:right;
+	color:#ffffff;
+	margin-right:15px;
+	padding-left:14px;
+	margin-top:10px;
+	}
+	.letra12MyriadPro{
+	color:#FF9326;
+	font-family: Myriad Pro;
+	font-size:22px; 
+	font-style:Regular; 
+	}
+	.letra30MyriadPro{
+	color:#FF9326;
+	font-family: Myriad Pro;
+	font-size:32px; 
+	font-style:Regular; 
+	}
+	/*topo________________________________________________________________________________________________________________________________________________*/
+		#topo_tudo{
+	margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		margin-bottom:0px;
+		width:100%;
+		height:100%;
+	
+	}
+	#topo{
+	width:auto;
+	height:42px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	margin-bottom:0;
+	background: url(../imagens/layout/top.gif) repeat;
+	}
+	.cont{
+	width:1049px;
+	height:42px;
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	}
+	.topo_imagem{
+	width:475px;
+	height:70px;
+	margin-top:25px;
+	margin-left:35px	;
+	float:right;
+	background: url(../imagens/layout/top_cont.png)no-repeat ;
+	}	
+
+	.top_tudo{
+	width:1023px;
+	height:200px;
+	background:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	}
+	.logo{
+	width:352px;
+	height:144px;
+	margin-top:18px;
+	margin-left:34px	;
+	float:left;
+	background: url(../imagens/layout/logobrothers.png) 
+	}
+
+	.tudo_tp{
+	width:auto;
+	height:381px;
+
+	background:#ffffff; 
+	}
+	
+	.escolha{
+	width:1131px; display:block; float:left; margin-left:-25px;
+	height:225px;
+	background:transparent; 
+	}
+	
+	#fundo-escolha{
+		width:1023px; overflow:visible; height:225px; float:none; margin-left:auto; margin-right:auto; background-color:#FFF;}
+	
+	
+	
+	
+	.itens-escolha{
+		width:auto; height:220px; float:left; display:block; overflow:hidden;}
+	
+	
+	/* menus de cima */
+	
+	
+	nav#menu-principal{
+		width:614px; height:70px; float:right; display:block; overflow:hidden;}
+	
+	ul#menucima{
+		width:614px; height:70px; display:block;margin-right:20px; overflow:hidden; float:right; list-style:none; top:0px; margin-top:0px;}
+		
+		li.menucima{
+		width:110px; height:70px; display:block; overflow:hidden; float:right; background-color:transparent; text-align:center; line-height:70px;}
+		
+		li.menucima:hover{
+		width:110px; height:70px; display:block; overflow:hidden; float:right;}
+		
+		
+		.text-menu{
+			color:#FFF; text-decoration:none; font-size:18px; font-family:Arial, Helvetica, sans-serif;}
+			
+		.text-menu:hover{
+			color:#FFF; text-decoration:underline; font-size:18px;}
+			
+
+	
+	
+	.letrabanner{
+	float:left;
+	margin-top:32px;
+	margin-left:32px;
+	background: url(../imagens/layout/destaque.png)  no-repeat;
+	
+	width:217px;
+	height:293px;
+	}
+	.letrabanner1{
+	margin-top:2px;
+	margin-left:29px;
+	background: url(../imagens/layout/letramarcas.png)  no-repeat;
+
+	float:left;
+	width:217px;
+	height:51px;
+	}
+	/*meio________________________________________________________________________________________________________________________________________________________*/
+
+	.lateralmenu{
+	width:13px;
+	height:52px;
+	float:left;
+	}
+	#conteudomenu{
+	width:1023px;
+	height:37px;
+	float:left;
+	background: url(../imagens/layout/meio_menu.gif) repeat;
+	}
+	.menuletra16calibra{
+	font-family: Calibri;
+	font-size:16px; 
+	font-style:regular;
+	float:left;
+	color:#ffffff;
+	border-right: 2px solid #ffffff;
+	margin-top:10px;
+	margin-left:10px;
+	padding-right:10px;
+	}
+	#banner {
+	width:756px;
+	height:258px;
+	margin-left:0px;
+	margin-right:auto;
+	margin-top:32px;
+	margin-bottom:auto;
+	padding-bottom: 20px;
+	float:left;
+	background:black;
+	}
+	#slides {
+	width:756px;
+	height:258px;
+	position:absolute;
+	
+	
+	}
+	#home{
+	width:980px;
+	height:361px;
+	background:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+
+	}
+	#imagem_banner{
+	width:980px;
+	height:361px;
+	background:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	
+	}
+	.conteudo{
+	width:756px;
+	min-height:438px;
+	height:auto;
+	background:#ffffff;
+	float:left;
+	margin-left:32px;
+	
+	}
+	.conteudo2{
+	width:756px;
+	min-height:438px;
+	height:auto;
+	background:#ffffff;
+	float:left;
+	margin-left:32px;
+	margin-top:40px;
+	}
+
+
+	/* contato ---------------------------------------------    contato  ----------------------------------------------------   contato*/
+	.contato{
+	width:1023px;
+	min-height:361px;
+	height:auto;
+	background:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	float:left;
+	}
+	.conteudo_contato{
+	float:left;
+	font-family:Calibra;
+	font-size:14px; 
+	margin-bottom:10px;
+	margin-left:10px;
+	}
+	.conteudo_contato1{
+	font-family:Calibra;
+	font-size:14px; 
+	margin-left:10px;
+	}
+	#conteudo_esquerda_conatato{
+	width:492px;
+	min-height:417px;
+	height:auto;
+	margin-top:10px;
+	float:left;
+	background:#ffffff;
+	margin-left:10px;
+	}	
+	.conteudo_direita_conatato{
+	width:200px;
+	min-height:417px;
+	height:auto;
+	margin-top:10px;
+	float:right;
+	}
+
+	#meio{
+	
+	width:1023px;
+	min-height:800px;
+	height:auto;
+	background:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	}
+
+/*Marcas ---------------------------------------------------------------------------------------------------*/
+	#marcas{
+	width:172px;
+	height:727px;
+
+	float:right;
+	margin-right:32px;
+	margin-top:42px;
+	
+	}
+	.imagem_marcas{
+	width:172px;
+	height:500px;
+	background:#3A1E22;
+	float:right;
+	margin-right:70px;
+	margin-top:42px;
+	
+	}
+	.marcas1{
+	width:161px;
+	height:131px;
+	margin-top:6px;
+	margin-right:6px;
+	margin-left:6px;
+	background-color:black;
+	}#logosmarcas{
+	
+	}
+	.linhaverde{
+	min-width:500px;
+	width:100%;
+	border-bottom: 2px solid #FF9326;
+	float:left;
+	}
+	.letra20{
+	color:#FF9326; 
+	font-family: Myriad Pro;
+	font-size:20px; 
+	float:left;
+	}
+	.letra30{
+	color:#FF9326; 
+	font-family: Myriad Pro;
+	font-size:20px; 
+	float:left;
+	}
+	.logomarcas{
+	width:315px;
+	height:137px;
+	margin-left:17px;
+	margin-top:10px;
+	margin-bottom:15px;
+	float:left;
+	}
+	#rodape{
+	position:relative;
+	bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:40px;
+	margin-bottom:0px;
+	width:100%;
+	height:258px;
+	background: url(../imagens/layout/rodape.gif)
+	}
+
+	/* produto  --------------------------------------------    produto   -----------------------------------------------------   produto*/
+	.produto{
+	width:187px;
+	height:204px;
+	float:left;
+	margin-left:20px;
+	margin-bottom:45px;
+	margin-top:20px;
+	}
+	.produto1{
+	width:187px;
+	min-height:10px;
+	height:autopx;
+	float:left;
+	margin-left:34px;
+	margin-bottom:40px;
+	margin-top:120px;
+	}
+	.produto2{
+	width:301px;
+	height:327px;
+	float:right;
+	
+	margin-bottom:25px;
+	margin-top:-10px;
+	}
+	.produto_grande{
+	width:739px;
+	height:279px;
+	float:left;
+	margin-left:20px;
+	margin-bottom:25px;
+	background-color:#3A1D22;
+	}
+	.conteudo_home_left{
+	width:473px;
+	height:439px;
+	float:left;
+	}
+	.imagem_produto_grande{
+	width:315px;
+	height:279px;
+	float:left;
+	}
+	.imagem_produto{
+	width:187px;
+	height:137px;
+	float:left;
+	}
+	.imagem_produto1{
+	width:302px;
+	height:221px;
+	float:left;
+	}
+	.conteudo_produto{
+	width:187px;
+	min-height:67PX;
+	height:auto;
+	float:left;
+	background:#3A1D22;
+	}.conteudo_produto1{
+	margin-top:;
+	width:301px;
+	min-height:107px;
+	height:auto;
+	float:right;
+	background:#3A1D22;
+	}
+	.conteudo_produto2{
+	width:187px;
+	height:130PX;
+
+	float:left;
+	background:#3A1D22;
+	}
+	
+	.grande_conteudo_produto{
+	width:421px;
+	min-height:279px;
+	height:auto;
+	float:left;
+	background-color:#3A1DE22;
+	}
+	.titulo_produto{
+	color:#ffffff;
+	font-family: Calibri;
+	font-size:24px; 
+	font-style:Bold Italic;
+	margin-left:5px;
+	} 
+	.subtitulo_produto{
+	color:#ffffff;
+	font-family: Calibri;
+	font-size:16px; 
+	margin-left:10px;
+	}
+	.subtitulo_produto2{
+	color:#ffffff;
+	font-family: Calibri;
+	font-size:16px; 
+	margin-left:5px;
+	height:65px;
+	width:150px;
+	}
+	.mais{
+	margin-top:22px;
+	width:90px;
+	height:24px;
+	float:right;
+	background:#735918;
+	text-align:center;
+	}
+	.mais1{
+	margin-top:50px;
+	width:138px;
+	height:37px;
+	float:right;
+	background:#735918;
+	
+	}
+	.valor{
+	width:228px;
+	height:82px;
+	float:left;
+	background:#735918;
+	}
+	.lateral_mais{
+
+		margin-left:25px;
+			color:#ffffff;
+	margin-top:5px;
+	float:left;
+	}
+	.letra_mais{
+	text-align: center;
+	color:#ffffff;
+	font-family: Calibri;
+	font-size:16px; 
+	margin-left:10px;
+	float:left;
+	}
+	.letra_valor{
+	text-align: center;
+	color:#ffffff;
+	font-family: Calibri;
+	font-size:39px; 
+	float:left;
+	}
+	.galeia_produto{
+	width:980px;
+	min-height:20px;
+	height:auto;
+
+	}
+	.imagem_produto_pequena{
+	width:101px;
+	margin-bottom:10px;
+	float:left;
+	}	
+	.imagem_brothers_pequena{
+	width:220px;
+	height:327px;
+	float:right;
+	}
+
+	.conteudo_rodape{
+	margin-left:auto;
+	margin-right:auto;
+	width:1023px;
+	height:40px;
+
+
+	}
+	.menuletra21calibra
+	{
+
+	font-family: Calibri;
+	font-size:16px; 
+	font-style:regular;
+	float:left;
+	color:#ffffff;
+	border-right: 2px solid #ffffff;
+	margin-top:10px;
+	margin-left:20px;
+	padding-right:10px;
+
+	}
+	.fundo_rodape{
+	width:1020px;
+	height:257px;
+	margin-left:auto;
+	margin-right:auto;
+
+	}
+
+	.rodape_img{
+	width:400px;
+
+	margin-top:20px;
+	margin-left:40px;
+
+	}
+	.img_midiamix{
+	float:right;
+	height:33px;
+	width:171px;
+	margin-top:225px;
+	}
+	.img_direitos{
+	float:right;
+	margin-top:5px;
+	margin-right:5px;
+	height:33px;
+	width:171px;
+	margin-top:225px;
+	}
+	.conteudo_links{
+
+
+
+	}
+	.links
+	{
+	margin-left:30px;
+	height:1000px;
+	width:900px;
+	}
+	.noticias{
+	height:auto;
+	width:1000px;
+	margin-left:20px;
+
+	}
+	.text-noticias{
+	font-family: Calibri;
+	font-size:16px;  
+	margin-left:20px;
+	float:left;
+	height:24px;
+	width:1023px;
+	}
+	.data{
+	font-family: Calibri;
+	font-size:18px; 
+	margin-top:10px;
+	height:25px;
+	width:1023px;
+	margin-left:40px;
+	float:left;
+
+
+
+	}
+	.oul{
+	position:absolute;
+	height:100px;
+	width:100px;
+	margin-bottom:0px;
+	margin-top:20px;
+	margin-left:600px;
+	float:right;
+	}
+	.iframe{
+	position:relative;
+	float:right;
+	margin-right:15px;
+
+
+	}
+	.home3{
+	position:relative;
+	width:200px;
+
+
+
+	}
+	.fundo{
+	margin-top:30px;
+	height:257px;
+	width:1000px;
+	margin-right:auto;
+	margin-left:auto;
+	}
+	.fundo2{
+	height:257px;
+	width:1000px;
+	margin-right:auto;
+	margin-left:auto;
+	}
+	.fundo3{
+	height:33px;
+	width:1000px;
+	margin-right:auto;
+	margin-left:auto;
+	}
+	.img_brothers{
+	margin-top:14px;		
+	width:274px;
+	height:107px;
+	float:left;
+	background: url(../imagens/layout/logobrother.png) no-repeat;
+	}
+	#link_1234_conteudo{
+	margin-top:120px;
+	width:521px;
+	height:29px;
+	float:left;
+	
+	
+	}
+	.imagem_indentificação{
+	width:160px;
+	height:56px;
+	float:left;
+	background: url(../imagens/layout/inf.png) no-repeat;
+	}
+	.letra_16_brothers{
+	margin-top:10px;
+	font-size:16px;
+	color:black;
+	font-family:calibra;
+	}
+	.letra_16_brothers1{
+	margin-top:60px;
+	font-size:16px;
+	color:black;
+	font-family:calibra;
+	
+	min-height:74px;
+	}
+	.conteiner_brothers{
+	min-height:27px;
+	
+	float:left;
+	width:auto;
+	}
+	.conteudo_img{
+	margin-top:10px;
+	float:right;
+	width:300px;
+	height:74px;
+	background: url(../imagens/layout/happy.png) no-repeat; 
+	}
+	.conteudo_tex{
+	margin-top:10px;
+	float:left;
+	width:400px;
+	min-height:74px;
+	height:auto;
+	
+	
+	}
+	.titulo_home{
+	
+	background: url() no-repeat; 
+	
+	}
+	.fundomix{float:right;width:auto;position:relative;height:45;}
