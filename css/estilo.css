@@ -1,0 +1,827 @@
+		/*SELECT sub_categoria.id, sub_categoria.foto, sub_categoria.titulo, sub_categoria.conteudo, sub_categoria.id_sub_categoria AS categoria, categoria.titulo AS categoria_nome
+		FROM sub_categoria
+		LEFT JOIN categoria ON ( sub_categoria.id_sub_categoria = categoria.id ) */
+
+		body {
+			margin-left:0px;
+			margin-right:0px;
+			margin-top:0px;
+			font-family:arial;
+			margin-bottom:0px;
+			width:100%;
+			height:100%;
+			background: url(../imagens/layout/fundo.gif) repeat;
+		}
+		.linhas{
+			width:100%; height:auto; margin-left:0px; margin-right:0px; display:block; clear:both;}	
+
+		.clear{
+		clear:both;
+		width:100%
+		}
+		a{
+		text-decoration:none;
+		}
+		img{border:0px;}
+		
+		
+		}
+		/*começo do index*/
+		#tudo{
+		width:1000px;
+		min-height:138px;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:auto;
+		margin-bottom:auto;
+
+		}
+
+		#logo_img{
+		margin-top:auto;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:auto;
+		z-index:-1;
+		width:1400px;
+		height:auto;
+		background:url(../imagens/layout/logo.png)no-repeat;
+		}
+
+		
+		.linkletra20arial{
+		font-family: arial;
+		font-size:20px; 
+		font-style:regular;
+		float:right;
+		color:#ffffff;
+		margin-right:15px;
+		padding-left:14px;
+		margin-top:10px;
+		}
+		.letra12MyriadPro{
+		color:#FF9326;
+		font-family: Myriad Pro;
+		font-size:20px; 
+		font-style:Regular; 
+		font-weight:600;
+		}
+		.letra12MyriadPro1{
+		color:#FF9326;
+		font-family: Myriad Pro;
+		font-size:20px; 
+		font-style:Regular; 
+		font-weight:800;
+		width:527p;
+		height:27px;
+		}
+		.letra30MyriadPro{
+		color:#FF9326;
+		font-family: Myriad Pro;
+		font-size:32px; 
+		font-style:Regular; 
+		}
+		/*topo________________________________________________________________________________________________________________________________________________*/
+
+		#topo{
+		width:1139px;
+		height:344px;
+		margin-left:0;
+		margin-right:0;
+		margin-top:0;
+		margin-bottom:0;
+		background: url(../imagens/layout/top.gif) repeat;
+		}
+		.top_meio{
+		width:1000px;
+		height:256px;
+		
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:auto;
+		margin-bottom:auto;
+		
+		
+		}
+		.cont{
+		width:990px;
+		height:50px;
+		background:url(../imagens/layout/TOP.png)no-repeat;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:auto;
+		margin-bottom:auto;
+		}
+		.fundo_categorias{
+		
+		
+		width:100%;
+		height:162px;
+		background:url(../imagens/layout/categorias.png)repeat;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		margin-bottom:0px;
+		
+		}
+		
+		.top_tudo{
+		width:1000px;
+		height:200px;
+		background:#ffffff;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:auto;
+		margin-bottom:auto;
+		background-image:url(../imagens/layout/fundo-bebida1.png); background-repeat:no-repeat;
+		}
+		
+
+
+
+
+		
+		
+
+		/* menus de cima */
+		
+		
+		nav#menu-principal{
+			width:614px; height:50px; float:left; display:block; overflow:hidden;}
+		
+		ul#menucima{
+			width:614px; height:50px; text-align:center;display:block;margin-right:0px; overflow:hidden; float:left;border-right:; list-style:none; top:0px; margin-top:0px;margin-bottom:0px;}
+		
+			li.menucima{
+			width:100px; height:50px; display:block; overflow:hidden; float:left; background-color:transparent; text-align:center; line-height:50px;}
+			li.menucima:hover{
+			width:100px; background:url(../imagens/layout/funli.png) repeat-x;height:50px; display:block; overflow:hidden; float:left;  text-align:center; line-height:50px;} 
+		
+			
+			
+			.text-menu{
+				color:#73A5B1; text-align:center;text-decoration:none; font-size:16px; padding-right:;border-right:;font-family:Arial;}
+				
+			.text-menu:hover{
+				color:#73A5B1;  font-size:16px;}
+				
+				
+
+		
+
+		.letrabanner{
+		float:left;
+		margin-top:32px;
+		margin-left:32px;
+		background: url(../imagens/layout/destaque.png)  no-repeat;
+		
+		width:217px;
+		height:293px;
+		}
+		.letrabanner1{
+		margin-top:2px;
+		margin-left:29px;
+		background: url(../imagens/layout/letramarcas.png)  no-repeat;
+
+		float:left;
+		width:217px;
+		height:51px;
+		}
+		/*meio________________________________________________________________________________________________________________________________________________________*/
+
+		.lateralmenu{
+		width:13px;
+		height:52px;
+		float:left;
+		}
+		#conteudomenu{
+		width:1023px;
+		height:37px;
+		float:left;
+		background: url(../imagens/layout/meio_menu.gif) repeat;
+		}
+		.menuletra16arial{
+		font-family: arial;
+		font-size:16px; 
+		font-style:regular;
+		float:left;
+		color:#ffffff;
+		border-right: 2px solid #ffffff;
+		margin-top:10px;
+		margin-left:10px;
+		padding-right:10px;
+		}
+		#banner {
+		width:576px;
+		height:244px;
+		float:right;
+
+		margin-top:10px;
+		margin-right:10px;
+		}
+		#slides {
+		width:756px;
+		height:258px;
+		position:absolute;
+		
+		
+		}
+		.div_teste{ 
+			width:700px; 
+			height:500px;  
+			position:absolute; 
+			z-index:100; 
+			top:50px; 
+			margin-left:300px; 
+	}
+		#home{
+		width:980px;
+		height:361px;
+		background:#ffffff;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:auto;
+		margin-bottom:auto;
+
+		}
+		.conteiner_text_home{ width:445px;height:296px;background-color:;margin-bottom:20px;float:left;}
+			.text_home_titulo{background:url(../imagens/layout/dicas.png) no-repeat;width:445px;height:50px;float:left;margin-top:20px;margin-left:25px;}
+			.equipe_titulo{background:url(../imagens/layout/dicas.png) no-repeat;width:1000px;height:50px;float:left;margin-top:20px;margin-left:-10px;}
+		.conteiner_novidade_home{ width:555px;height:296px;background-color:;float:right;}
+		.img_dicas{background:url(../imagens/layout/dicas.png) no-repeat;width:231px;height:40px;float:left;margin-top:20px;margin-left:25px;}
+			.titulo_dicas{font-size:20px;font-family:Myriad Pro;color:#73a5b1; text-align:center;margin-top:10px;font-weight:600;}
+			.titulo_dicas_right{font-size:20px;font-family:Myriad Pro;color:#73a5b1; margin-left:70px;text-align:;margin-top:7px;font-weight:600;}
+		.conteiner_marcas{ width:1000px;height:137px;background-color:;float:right;margin-bottom:20px;}
+			.marcas_titulo{background:url(../imagens/layout/dicas.png) no-repeat;width:445px;height:50px;float:left;margin-top:5px;margin-left:25px;}
+			
+		.text_home{ margin-top:15px;text-align:justify;line-height:150%;font-family:Myriad Pro;font-size:14px;color:#73a5b1; float:right;margin-left:50px;}
+		.text_odonto{ line-height:150%;text-align:justify;margin-left:50px;margin-top:15px;text-align:justify;font-family:Myriad Pro;font-size:14px;color:#73a5b1; float:right;}
+		.conteiner_text_odonto{
+				 width:444px;height:526px;background-color:;float:left;
+		}	
+		.conteiner_estrutura{
+				 width:540px;height:502px;background-color:;float:right;
+		}	
+		.text_odonto_titulo{background:url(../imagens/layout/dicas.png) no-repeat;width:445px;height:50px;float:left;margin-top:20px;margin-left:25px;}
+		.estrutura_titulo{background:url(../imagens/layout/dicas.png) no-repeat;width:445px;height:50px;float:left;margin-top:20px;margin-left:25px;}
+		.rescente_titulo{background:url(../imagens/layout/dicas.png) no-repeat;width:233px;height:50px;float:right;margin-top:20px;margin-right:;}
+		
+		.odonto_font{
+		text-align:justify;font-family:comic book;font-size:17px;color:#73a5b1;margin-top:8px;
+		}
+		.conteiner_fundo{width:445px;min-height:273px;height:auto;float:left;background-color:;margin-top:10px;margin-left:20px;float:left;}
+		.img_certo{background:url(../imagens/layout/certo.png) no-repeat; width:42px; height:27px;margin-left:30px;float:left;}
+		.novidade{width:502px; min-height:108px;height:auto; margin-left:40px;margin-top:20px;
+		}
+		.{width:502px; min-height:108px;height:auto;float:right;margin-top:20px;
+		}
+		
+		#imagem_banner{
+		width:980px;
+		height:361px;
+		background:#ffffff;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:auto;
+		margin-bottom:auto;
+		
+		}
+		
+		.categoria{ width:1000px;height:162px;margin-right:auto;margin-left:auto;margin-top:auto;margin-bottom:auto;	}
+		.img_categoria{width:400px;height:162px;float:right;margin-top:20px;margin-right:40px;background: url(../imagens/layout/logo_index.png)no-repeat}
+		.img_saiba{width:98px;height:26px;float:right;margin-top:90px;margin-right:60px;font-family:Myriad Pro;font-size:19px;color:#ffffff}
+		.img_saiba:hover{text-decoration:underline;}
+		.serviços{width:530px;height:155px;float:left;margin-left:20px;}
+		.titulo_serviços{width:84px;height:20px;float:left;margin-left:120px;color:#ffffff;font-size:22px;margin-top:20px;font-family:Myriad Pro;}
+
+		.conteudo{
+		width:1000px;
+		min-height:430px;
+		height:auto;
+		background:#ffffff;
+		float:left;
+			margin-left:auto;
+		margin-right:auto;
+		margin-top:auto;
+		margin-bottom:auto;
+		
+		}
+		.conteudo2{
+		width:756px;
+		min-height:438px;
+		height:auto;
+		background:#ffffff;
+		float:left;
+		margin-left:32px;
+		margin-top:40px;
+		}
+
+
+		/* contato ---------------------------------------------    contato  ----------------------------------------------------   contato*/
+		.contato{
+		width:1023px;
+		min-height:361px;
+		height:auto;
+		background:#ffffff;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:auto;
+		margin-bottom:auto;
+		float:left;
+		}
+		.conteudo_contato{
+		float:left;
+		font-family:arial;
+		font-size:14px; 
+		margin-bottom:10px;
+		margin-left:10px;
+		}
+		.conteudo_contato1{
+		font-family:arial;
+		font-size:14px; 
+		margin-left:10px;
+		}
+		#conteudo_esquerda_conatato{
+		width:492px;
+		min-height:417px;
+		height:auto;
+		margin-top:10px;
+		float:left;
+		background:#ffffff;
+		margin-left:10px;
+		}	
+		.titulo_contato{
+				color:#73a5b1;font-family:arial;font-weight:600;
+				}
+		.conteudo_direita_conatato{
+		width:200px;
+		min-height:417px;
+		height:auto;
+		margin-top:10px;
+		float:right;
+		}
+		.conteudo_contato1{
+		margin-left:10px; padding-top:10px; margin-bottom:20px;color:#73a5b1; font-family:Myriad Pro; text-align:right;
+		
+		}
+		#meio{
+		
+		width:1023px;
+		min-height:430px;
+		height:auto;
+		background:#ffffff;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:auto;
+		margin-bottom:auto;
+		}
+		.conteiner_itens{position:relative;width:310px;height:109;margin-top:15px;margin-left:130px;float:left;}
+		.titulo_itens{position:relative;min-width:40px;padding-left:40px;height:15;float:left;font-size:16px;font-family:arial;color:white;}
+		.titulo_itens:hover{color:#ffffff; text-decoration:underline; font-size:16px;}}
+	/*Marcas ---------------------------------------------------------------------------------------------------*/
+		.marcas{
+		width:727px;
+		height:68px;
+		margin-top:10px;
+		float:left;
+		margin-left:34px;
+		margin-bottom:10px;
+		
+		}
+		.imgmarcas{ float:left;}
+		.imagem_marcas{
+		width:172px;
+		height:500px;
+		background:#3A1E22;
+		float:right;
+		margin-right:70px;
+		margin-top:42px;
+		
+		}
+		.marcas1{
+		width:161px;
+		height:131px;
+		margin-top:6px;
+		margin-right:6px;
+		margin-left:6px;
+		background-color:black;
+		}
+		.logo{width:229px;height:120px;float:left;margin-left:30px;margin-top:50px;background:url(../imagens/layout/objeto.png);
+		
+		}
+		.linhaverde{
+		min-width:500px;
+		width:100%;
+		border-bottom: 2px solid #FF9326;
+		float:left;
+		}
+		.letra20{
+		color:#FF9326; 
+		font-family: Myriad Pro;
+		font-size:20px; 
+		float:left;
+		}
+		.letra30{
+		color:#FF9326; 
+		font-family: Myriad Pro;
+		font-size:20px; 
+		float:left;
+		}
+		.logomarcas{
+		width:315px;
+		height:137px;
+		margin-left:17px;
+		margin-top:10px;
+		margin-bottom:15px;
+		float:left;
+		}
+		#rodape{
+		position:relative;
+		bottom:0px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		margin-bottom:0px;
+		width:100%;
+		height:102px;
+		background: url(../imagens/layout/rodapé.png)
+		}
+
+		/* produto  --------------------------------------------    produto   -----------------------------------------------------   produto*/
+		.produto{
+		width:187px;
+		height:204px;
+		float:left;
+		margin-left:20px;
+		margin-bottom:45px;
+		margin-top:20px;
+		}
+		.produto1{
+		width:187px;
+		min-height:10px;
+		height:autopx;
+		float:left;
+		margin-left:34px;
+		margin-bottom:40px;
+		margin-top:120px;
+		}
+		.produto1{
+		width:187px;
+		min-height:10px;
+		height:autopx;
+		float:right;
+		margin-right:20px;
+		margin-bottom:40px;
+		margin-top:120px;
+		}
+		
+		
+		.produto_grande{
+		width:739px;
+		height:279px;
+		float:left;
+		margin-left:20px;
+		margin-bottom:25px;
+		background-color:transparent;
+		}
+		
+		.conteudo_home_left{
+		width:473px;
+		height:439px;
+		float:left;
+		}
+		
+		.imagem_produto{
+		width:181px;
+		height:120px;
+		float:left;
+		opacity:0.60;
+		border-width:4px; border-style:solid; border-color:#81c1c7;
+		
+		}.imagem_produto:hover{
+		
+		opacity:100;
+		}
+		.imagem_produto1{
+		opacity:0.60;
+		width:105px;
+		height:70px;
+		float:left;
+		border-width:5px; border-style:solid; border-color:#81c1c7;
+		}
+		.imagem_produto1:hover{
+		opacity:100;}
+		
+		
+		.conteudo_produto{
+		width:189px;
+		min-height:67PX;
+		height:auto;
+		float:left;
+		background:#81c1c7;
+		}
+		.conteudo_produto1{
+		width:114px;
+		min-height:33PX;
+		height:auto;
+		float:left;
+		background:#81c1c7;
+		}
+		.Conteiner_produto1{width:114px;min-height:108px;float:left;height:auto;padding-right:10px;margin-bottom:10px;}
+		.Conteiner_produto{width:114px;min-height:108px;float:right;height:auto;margin-right:70px;padding-right:30px;margin-bottom:10px;}
+		.imagem_produto_grande{
+		width:315px;
+		height:279px;
+		float:left;
+		border-width:3px; border-style:solid; border-color:#73a5b1;
+		}
+		.grande_conteudo_produto{
+		width:400px;
+		min-height:284px;
+		height:auto;
+		float:left;
+
+		background-color:#73a5b1}
+		.titulo_produto{
+		color:#ffffff;
+		font-family: arial;
+		font-size:24px; 
+		font-style:Bold Italic;
+		margin-left:5px;
+		} 
+		.titulo_produto1{
+		color:#ffffff;
+		font-family: arial;
+		font-size:19px; 
+		font-style:Bold Italic;
+		margin-left:5px;
+		} 
+		.subtitulo_produto{
+		color:#ffffff;
+		font-family: arial;
+		font-size:16px; 
+		margin-left:10px;
+		}
+		.subtitulo_produto1{
+		color:#ffffff;
+		font-family: arial;
+		font-size:12px; 
+		margin-left:10px;
+		margin-bottom:5px;
+		}
+		.subtitulo_produto2{
+		color:#ffffff;
+		font-family: arial;
+		font-size:16px; 
+		margin-left:5px;
+		height:65px;
+		width:150px;
+		}
+
+		.mais{
+		margin-top:22px;
+		width:90px;
+		height:0px;
+		float:right;
+		background:#81c1c7;
+		text-align:center;
+		}
+		.valor{
+		width:228px;
+		height:82px;
+		float:left;
+		background:#73a5b1;
+		}
+
+		.letra_mais{
+		text-align: center;
+		color:#ffffff;
+		font-family: arial;
+		font-size:12px; 
+		margin-right:5px;
+		margin-top:-19px;
+		float:right;
+		}
+		.letra_mais:hover{
+		text-decoration:underline;
+		}
+		.letra_mais1{
+		text-align: center;
+		color:#ffffff;
+		font-family: arial;
+		font-size:12px; 
+		margin-right:5px;
+		margin-top:px;
+		float:right;
+		}
+		.letra_mais1:hover{
+		
+		text-decoration:underline;
+		}
+		
+		.letra_valor{
+		text-align: center;
+		color:#ffffff;
+		font-family: arial;
+		font-size:39px; 
+		float:left;
+		}
+		.galeia_produto{
+		width:980px;
+		min-height:20px;
+		height:auto;
+
+		}
+		.imagem_produto_pequena{
+		width:101px;
+		margin-bottom:10px;
+		float:left;
+		}	
+		.imagem_Odonto_pequena{
+		width:220px;
+		height:327px;
+		float:right;
+		}
+
+		.conteudo_rodape{
+		margin-left:auto;
+		margin-right:auto;
+		width:1023px;
+		height:40px;
+
+
+		}
+		.menuletra21arial
+		{
+
+		font-family: arial;
+		font-size:16px; 
+		font-style:regular;
+		float:left;
+		color:#ffffff;
+		border-right: 2px solid #ffffff;
+		margin-top:10px;
+		margin-left:20px;
+		padding-right:10px;
+
+		}
+		.fundo{
+		width:1000px;
+		height:102px;
+		margin-left:auto;
+		margin-right:auto;
+
+		}
+
+		
+		
+			.inf_fundo{font-size:14px;width:500px;font-family:Myriad Pro; margin-top:30px;margin-left:30px;color:#ffffff;}
+			.telf_fundo{font-size:19px;width:500px;font-family:Myriad Pro; margin-top:;margin-left:;color:#ffffff;}
+		.fundo_direito{width:297px;height:102px;margin-right:;float:right;}
+		#mapa{width:490px;height:216px;float:right;background-color:;}
+		#facebook{
+			height:50px; width:40px;margin-right:5px;margin-top:5px; float:right; display:block; background:url(../imagens/layout/face.png) no-repeat;}
+			
+		.redessociais{width:120px;height:50px;float:right;background-color:;}
+								
+		.img_clique{float:right;width:190px;height:61px;margin-right:140px;margin-top:20px;background:url(../imagens/layout/clique.png)no-repeat;}
+		.img_google{float:right;width:190px;height:76px;margin-right:20px;margin-top:;background:url(../imagens/layout/google.png)no-repeat;}
+	
+
+		#pop{display:none;position:absolute;top:60%;left:50%;margin-left:-400px;margin-top:160px;z-index:1000;padding:;background-color:;width:;height:;}
+		.conteudo_links{
+
+
+
+		}
+		.fechar{font-size:16px;font-family:arial;color:#73a5b1;margin-left:700px;margin-bottom:10px;}
+		
+		.links
+		{
+		margin-left:30px;
+		height:1000px;
+		width:900px;
+		}
+		.noticias{
+		height:auto;
+		width:1000px;
+		margin-left:20px;
+
+		}
+		.text-noticias{
+		font-family: arial;
+		font-size:16px;  
+		margin-left:20px;
+		float:left;
+		height:24px;
+		width:1023px;
+		}
+		.data{
+		font-family: arial;
+		font-size:18px; 
+		margin-top:10px;
+		height:25px;
+		width:1023px;
+		margin-left:40px;
+		float:left;
+
+
+
+		}
+		.oul{
+		position:absolute;
+		height:100px;
+		width:100px;
+		margin-bottom:0px;
+		margin-top:20px;
+		margin-left:600px;
+		float:right;
+		}
+		.iframe{
+		position:relative;
+		float:right;
+		margin-right:15px;
+
+
+		}
+		.home3{
+		position:relative;
+		width:200px;
+
+
+
+		}
+		
+		.img_Odonto{
+		margin-top:14px;		
+		width:274px;
+		height:107px;
+		float:left;
+		background: url(../imagens/layout/logobrother.png) no-repeat;
+		}
+		#link_1234_conteudo{
+		margin-top:120px;
+		width:521px;
+		height:29px;
+		float:left;
+		
+		
+		}
+		.imagem_indentificação{
+		width:160px;
+		height:56px;
+		float:left;
+		background: url(../imagens/layout/inf.png) no-repeat;
+		}
+		.letra_16_Odonto{
+		margin-top:10px;
+		font-size:16px;
+		color:black;
+		font-family:arial;
+		}
+		.letra_16_Odonto1{
+		margin-top:60px;
+		font-size:16px;
+		color:black;
+		font-family:arial;
+		
+		min-height:74px;
+		}
+		.conteiner_Odonto{
+		min-height:27px;
+		
+		float:left;
+		width:auto;
+		}
+		.conteudo_img{
+		margin-top:10px;
+		float:right;
+		width:300px;
+		height:74px;
+		background: url(../imagens/layout/happy.png) no-repeat; 
+		}
+		.conteudo_tex{
+		margin-top:10px;
+		float:left;
+		width:400px;
+		min-height:74px;
+		height:auto;
+		
+		
+		}
+		/*Equipe*/
+		.conteudo_left{ margin-bottom:30px;margin-left:30px;float:left;width:675px;height:120px;border-right:2px solid #73a5b1; margin-top:20px;margin-bottom:10px;}
+		.foto_equipe{ float:left;width:147px;height:103px;border:5px solid #73a5b1;}
+		.informacao_equipe{width:514px;height:120px;float:right;background-color:;}
+		.nome_equipe{font-size:20px;margin-top:10px;margin-left:20px;font-weight:600;font-family:Myriad Pro;color:#73a5b1;}
+		.inf_equipe{font-size:14px;margin-top:10px;margin-left:50px;font-weight:600;font-family:Myriad Pro;color:#73a5b1;}
+		.conteudo_right{width:289px;height:120px;float:right; margin-top:;margin-bottom:10px;}
+		.inf_equipe_right{font-size:14px;margin-top:40px;margin-left:5px;font-weight:600;font-family:Myriad Pro;color:#73a5b1;margin-bottom:;}
+		.letra_16_home1{font-family:arial;}
+		.titulo_home{
+		
+		background: url() no-repeat; 
+		
+		}
+		.fundomix{float:right;width:auto;position:relative;height:45;}
